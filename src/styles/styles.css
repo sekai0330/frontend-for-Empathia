@@ -1,0 +1,202 @@
+
+/* Signup & Login Pages on focus styles */
+.input-field {
+    transition: all 0.2s ease;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+}
+.input-field:focus {
+    outline: none;
+    border-bottom: 2px solid #ee6283;
+}
+
+.input-field:focus::placeholder {
+    color: #FF9BB2
+    
+}
+/* End */
+
+/* Product page buttons on hover */
+
+  .btsContainer button {
+    flex-grow: 1;
+    background-color: transparent;
+    font-size: 1.2rem;
+    transition: flex-grow 250ms cubic-bezier(0.215, 0.61, 0.355, 1);;
+  }
+  
+.btsContainer:hover button:not(:hover) {
+    flex-grow: 1;
+}
+
+.btsContainer button:hover {
+  flex-grow: 2;
+  color: white;
+  background-color: #ff7795;
+}
+
+
+.submitButton {background-color: transparent;}
+
+.submitButton:hover {
+    color: white;
+    background-color: #ff7795;
+}
+/* End */
+
+/* PopUpWindow media */
+
+@media screen and (max-width: 1100px) {
+  .popUpWindow {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .popUpWindow {
+    width: 50%;
+  }
+}
+
+/* End */
+
+/* Scroll bar feedback section */
+
+.scroll {
+  overflow: scroll;
+}
+.scroll::-webkit-scrollbar {
+   width: 12px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+   border-radius: 10px;
+   background-color: #ec92a5;
+}
+::-webkit-scrollbar-corner { 
+  background: #EA3A60; 
+  border-radius: 10px;
+}
+
+/* End */
+
+
+/* loading screen animation */
+
+#preloader {
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+}
+#loader {
+  position: relative;
+  
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #FF9BB2;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+#loader:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #d42c53;
+  -webkit-animation: spin 3s linear infinite;
+  animation: spin 3s linear infinite;
+}
+#loader:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #dd3980;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+@-webkit-keyframes spin {
+  0%   {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0%   {
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+
+/* End */
+
+/* Results Pop Up media */
+
+.popUpArrowBtb:hover {
+  background-color: #D84565;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.transcriptResult {
+  width: 50%;
+  height: 35vh;
+}
+
+.graphResult {
+  width: 40%;
+}
+
+@media screen and (max-width: 630px) {
+  .resultsBoxContainer {
+    flex-direction: column;
+  }
+
+  .transcriptResult {
+    width: 100%;
+    height: 10vh;
+  }
+
+  .graphResult {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+}
+/*  */
+
+/*  */
+
+.submitBtn {
+  background: #ff85a2; 
+}
+.submitBtn:hover {
+  background: #EA3A60; 
+  border-radius: 10px;
+}
