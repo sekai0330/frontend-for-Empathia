@@ -6,7 +6,6 @@
 // import Layout from 'components/layout';
 // import Banner from '../sections/banner';
 // import KeyFeature from '../sections/key-feature';
-// import ServiceSection from '../sections/service-section';
 // import Feature from '../sections/feature';
 // import CoreFeature from '../sections/core-feature';
 // import WorkFlow from '../sections/workflow';
@@ -55,7 +54,6 @@ import SEO from "components/seo";
 import Layout from "components/layout";
 import Banner from "../sections/banner";
 import KeyFeature from "../sections/key-feature";
-import ServiceSection from "../sections/service-section";
 import Feature from "../sections/feature";
 import CoreFeature from "../sections/core-feature";
 import WorkFlow from "../sections/workflow";
@@ -72,7 +70,6 @@ export default function HomePage() {
           <SEO title="EMPATHIA" />
           <Banner />
           <KeyFeature />
-          <ServiceSection />
           {/* <Feature /> */}
           <WorkFlow />
           <CoreFeature />
@@ -93,7 +90,6 @@ export default function HomePage() {
 // import Layout from 'components/layout';
 // import Banner from '../sections/banner';
 // import KeyFeature from '../sections/key-feature';
-// import ServiceSection from '../sections/service-section';
 // import Feature from '../sections/feature';
 // import CoreFeature from '../sections/core-feature';
 // import WorkFlow from '../sections/workflow';
