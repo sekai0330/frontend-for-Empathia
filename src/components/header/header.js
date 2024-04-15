@@ -2,9 +2,6 @@
 import { jsx, Container, Flex, Button } from "theme-ui";
 import { keyframes } from "@emotion/core";
 import { Link } from "react-scroll";
-// import Link from 'next/link'
-// import Logo from 'components/logo';
-// import LogoDark from 'assets/logo.svg';
 import { DrawerProvider } from "../../contexts/drawer/drawer.provider";
 import MobileDrawer from "./mobile-drawer";
 import { menuItems, additionLinks } from "./header.data";
