@@ -1,11 +1,11 @@
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
 
 export default function SEO({
-  description = 'startup product landing page',
-  author = 'RedQ, Inc',
+  description = "health care app",
+  author = "RedQ, Inc",
   meta,
-  title = 'startup landing title',
+  title = "health care app",
 }) {
   const metaData = [
     {
