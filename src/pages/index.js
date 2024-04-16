@@ -10,7 +10,6 @@
 // import CoreFeature from '../sections/core-feature';
 // import WorkFlow from '../sections/workflow';
 // import Package from '../sections/package';
-// import TestimonialCard from '../sections/testimonial';
 // import BlogSection from '../sections/blog-section';
 // import Subscribe from '../sections/subscribe';
 // import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
@@ -58,7 +57,6 @@ import Feature from "../sections/feature";
 import CoreFeature from "../sections/core-feature";
 import WorkFlow from "../sections/workflow";
 import Package from "../sections/package";
-import TestimonialCard from "../sections/testimonial";
 import BlogSection from "../sections/blog-section";
 import Subscribe from "../sections/subscribe";
 
@@ -73,7 +71,7 @@ export default function HomePage() {
           {/* <Feature /> */}
           <WorkFlow />
           <CoreFeature />
-          {/* <TestimonialCard />
+          {/* 
             <BlogSection />
             <Subscribe /> */}
         </Layout>
@@ -94,7 +92,6 @@ export default function HomePage() {
 // import CoreFeature from '../sections/core-feature';
 // import WorkFlow from '../sections/workflow';
 // import Package from '../sections/package';
-// import TestimonialCard from '../sections/testimonial';
 // import BlogSection from '../sections/blog-section';
 // import Subscribe from '../sections/subscribe';
 // import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
@@ -112,8 +109,6 @@ export default function HomePage() {
 //             {/* <Feature /> */}
 //             <CoreFeature />
 //             <WorkFlow />
-//             <TestimonialCard />
-//             {/* <TestimonialCard />
 //             <BlogSection />
 //             <Subscribe /> */}
 //           </Layout>
